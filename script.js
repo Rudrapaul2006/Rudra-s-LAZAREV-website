@@ -40,9 +40,6 @@ function navAnimation() {
     })
 }
 
-navAnimation()
-
-
 function page2_earth_animation() {
     let rightElement = document.querySelectorAll(".right-elem");
 
@@ -68,4 +65,31 @@ rightElement.forEach((elem) => {
     })
 }
 
+function page3VideoAnimation() {
+    var page3Center = document.querySelector(".page3")
+    var video = document.querySelector("#video")
+
+    page3Center.addEventListener("click", function () {
+        video.play()
+        gsap.to(video, {
+            transform: "scaleX(1) scaleY(1)",
+            opacity: 1,
+            borderRadius: 14
+        })
+    })
+    video.addEventListener("mouseleave", function () {
+        video.pause()
+        gsap.to(video, {
+            transform: "scaleX(.1) scaleY(.1)",
+            opacity: 0,
+            borderRadius: 0
+        })
+    })
+    video.addEventListener("dblclick", function () {
+        video.pause()
+    })
+}
+
+navAnimation();
 page2_earth_animation();
+page3VideoAnimation();
