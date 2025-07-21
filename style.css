@@ -93,11 +93,8 @@ nav button svg {
 }
 
 
-
+/* Page - 1 */
 /* MAIN BODY */
-/* #main {
-    border: 1px solid blue;
-} */
 
 .page1 {
     height: 100vh;
@@ -280,7 +277,7 @@ nav button svg {
 }
 
 
-/* page-3 */
+/* Page - 3 */
 .page3 {
     height: 100vh;
     width: 79%;
@@ -347,3 +344,6 @@ nav button svg {
     opacity: 1;
     transform: translateY(10%);
 }
+
+
+/* Page - 4 */
