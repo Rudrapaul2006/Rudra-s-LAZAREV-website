@@ -41,3 +41,31 @@ function navAnimation() {
 }
 
 navAnimation()
+
+
+function page2_earth_animation() {
+    let rightElement = document.querySelectorAll(".right-elem");
+
+rightElement.forEach((elem) => {
+    elem.addEventListener("mouseenter" , () => {
+        gsap.to(elem.childNodes[3] , {
+            opacity : 1,
+            scale : 1
+        })
+    })
+    elem.addEventListener("mouseleave" , () => {
+        gsap.to(elem.childNodes[3] , {
+            opacity : 0,
+            scale : 0
+        })
+    })
+    elem.addEventListener("mousemove" , function(dets) {
+        gsap.to(elem.childNodes[3] , {
+            x: dets.x - elem.getBoundingClientRect().x - 45,
+            y: dets.y - elem.getBoundingClientRect().y - 95
+        })
+    })
+    })
+}
+
+page2_earth_animation();

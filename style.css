@@ -95,6 +95,10 @@ nav button svg {
 
 
 /* MAIN BODY */
+/* #main {
+    border: 1px solid blue;
+} */
+
 .page1 {
     height: 100vh;
     width: 100%;
@@ -199,3 +203,79 @@ nav button svg {
 
 /* Page - 2 */
 /* Time Line - 2 days */
+
+.page2 {
+    /* border: 1px solid red ;  */
+    position: relative;
+    height: 100vh;
+    width: 79%;
+    background-color: #111;
+    margin-left: 22.7vh;
+    border-top: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.page2 .page2-left {
+    /* border: 1px solid blue;   */
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page2 .page2-left p{
+    margin-top: 150px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.page2 .page2-left h5{
+    width: 75%;
+    font-size: 14px;
+    font-weight: 500 ;
+    padding-bottom: 120px;
+}
+
+.page2 .page2-right {
+    /* border: 1px solid blue;  */
+    padding-top: 10vh;
+    margin-left: 15vh;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.page2 .page2-right .right-elem {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    position: relative;
+    height: 20vh;
+    padding-top: 25px;
+    border-bottom: 1.5px solid #333; 
+    transition: ease .3s;
+    padding-left: 10px;
+}
+
+.page2 .page2-right .right-elem h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.page2 .page2-right .right-elem img {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+}
+
+.page2 .page2-right .right-elem:hover {
+    background-color: #202020;
+}
