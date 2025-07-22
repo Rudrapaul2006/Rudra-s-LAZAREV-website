@@ -77,6 +77,7 @@ function page3VideoAnimation() {
             borderRadius: 14
         })
     })
+
     video.addEventListener("mouseleave", function () {
         video.pause()
         gsap.to(video, {
@@ -90,6 +91,47 @@ function page3VideoAnimation() {
     })
 }
 
-// navAnimation();
+function page5_animation () {
+    let page5_video_div = document.querySelector(".right-sec");
+let page5_img = document.querySelector(".right-sec img");
+let page5_video = document.querySelector(".right-sec video");
+
+page5_video_div.addEventListener("mouseenter" , () => {
+    page5_video.play()
+    gsap.to(page5_video , {
+        scale : 1,
+        opacity : 1,
+    }) 
+    gsap.to(page5_img , {
+        opacity : 0,
+    })  
+})
+
+page5_video_div.addEventListener("mouseleave" , () => {
+    page5_video.play()
+    gsap.to(page5_video , {
+        scale : 0,
+        opacity : 0,
+    }) 
+    gsap.to(page5_img , {
+        opacity : 1,
+    })  
+    })
+
+    // page5_video_div.addEventListener("click" , () => {
+    // page5_video.pause()
+    // gsap.to(page5_video , {
+    //     scale : 1,
+    //     opacity : 1,
+    // }) 
+    // gsap.to(page5_img , {
+    //     opacity : 0,
+    // })  
+    // })
+
+}
+
+navAnimation();
 page2_earth_animation();
 page3VideoAnimation();
+page5_animation();
