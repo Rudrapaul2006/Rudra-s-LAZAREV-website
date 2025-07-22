@@ -453,15 +453,16 @@ nav button svg {
     min-height: 100vh;
     background-color: rgb(250, 247, 248);
     display: flex;
-    flex-direction: row ;
+    flex-direction: row-reverse;
+    /* flex-direction: row; */
     justify-content: space-between;
 }
 
 .page6 .six-left-div {
-    /* background-color: #333; */
     position: relative;
     color: #111;
-    margin-left: 22.5vh;
+    margin-right: 22.5vh;
+    /* margin-left: 22.5vh; */
     width: 20%;
     min-height: 80vh;
     border-top: 2px solid #5f5b5b;
@@ -481,10 +482,10 @@ nav button svg {
 
 .page6 .six-right-sec {
     /* margin-top: 3vh; */
-    /* background-color: #333; */
     position: relative;
     width: 56%;
-    margin-right: 22.5vh;
+    margin-left: 22.5vh;
+    /* margin-right: 22.5vh; */
 }
 
 .page6 .six-right-sec img {
