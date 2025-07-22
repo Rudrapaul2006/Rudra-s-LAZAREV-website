@@ -444,3 +444,66 @@ nav button svg {
     scale: 0;
 }
 
+
+/* page - 6 */
+.page6 {
+    /* border: 1px solid red; */
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(250, 247, 248);
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+.page6 .six-left-div {
+    /* background-color: #333; */
+    position: relative;
+    color: #111;
+    margin-left: 22.5vh;
+    width: 20%;
+    min-height: 80vh;
+    border-top: 2px solid #5f5b5b;
+}
+
+.page6 .six-left-div h2 {
+    font-size: 30px;
+    margin-top: 7vh;
+    margin-bottom: 9vh;
+    margin-left: 5vh;
+}
+
+.page6 .six-left-div p {
+    width: 75%;
+    margin-left: 5vh;
+}
+
+.page6 .six-right-sec {
+    /* margin-top: 3vh; */
+    /* background-color: #333; */
+    position: relative;
+    width: 56%;
+    margin-right: 22.5vh;
+}
+
+.page6 .six-right-sec img {
+    border-radius: 15px;
+    margin-top: 1vh;
+    width: 100%;
+    height: 65vh;
+    opacity: 1;
+}
+
+.page6 .six-right-sec video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 1vh;
+    object-fit: cover;
+    border-radius: 15px ;
+    width: 100%;
+    height: 65vh;
+    opacity: 0;
+    scale: 0;
+}

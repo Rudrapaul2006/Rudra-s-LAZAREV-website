@@ -131,7 +131,37 @@ page5_video_div.addEventListener("mouseleave" , () => {
 
 }
 
+function page6_animation () {
+    let page6_video_div = document.querySelector(".six-right-sec");
+    let page6_img = document.querySelector(".six-right-sec img");
+    let page6_video = document.querySelector(".six-right-sec video");
+
+page6_video_div.addEventListener("mouseenter" , () => {
+    page6_video.play()
+    gsap.to(page6_video , {
+        scale : 1,
+        opacity : 1,
+    }) 
+    gsap.to(page6_img , {
+        opacity : 0,
+    })  
+})
+
+page6_video_div.addEventListener("mouseleave" , () => {
+    page6_video.play()
+    gsap.to(page6_video , {
+        scale : 0,
+        opacity : 0,
+    }) 
+    gsap.to(page6_img , {
+        opacity : 1,
+    })  
+    })
+
+}
+
 navAnimation();
 page2_earth_animation();
 page3VideoAnimation();
 page5_animation();
+page6_animation();
