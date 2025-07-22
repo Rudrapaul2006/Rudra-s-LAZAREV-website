@@ -90,6 +90,6 @@ function page3VideoAnimation() {
     })
 }
 
-navAnimation();
+// navAnimation();
 page2_earth_animation();
 page3VideoAnimation();
