@@ -379,3 +379,49 @@ nav button svg {
     margin-top: 5vh;
     margin-bottom: 25px;
 }
+
+
+/* page - 5 */
+.page5 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(250, 247, 248);
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+
+.page5 .left-div {
+    /* background-color: #333; */
+    color: #111;
+    margin-left: 22.5vh;
+    width: 20%;
+    min-height: 80vh;
+    border-top: 2px solid #5f5b5b;
+}
+
+.page5 .left-div h2 {
+    font-size: 30px;
+    margin-top: 7vh;
+    margin-bottom: 9vh;
+    margin-left: 5vh;
+}
+
+.page5 .left-div p {
+    width: 75%;
+    margin-left: 5vh;
+}
+
+.page5 .right-div {
+    /* margin-top: 3vh; */
+    /* background-color: #333; */
+    width: 56%;
+    margin-right: 22.5vh;
+}
+
+.page5 .right-div img {
+    border-radius: 15px;
+    width: 100%;
+    height: 65vh;
+}
