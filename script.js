@@ -160,7 +160,7 @@ page6_video_div.addEventListener("mouseleave" , () => {
 
 }
 
-navAnimation();
+// navAnimation();
 page2_earth_animation();
 page3VideoAnimation();
 page5_animation();
