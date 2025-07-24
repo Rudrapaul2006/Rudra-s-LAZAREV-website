@@ -65,7 +65,7 @@ rightElement.forEach((elem) => {
     })
 }
 
-function page3VideoAnimation() {
+function page3_VideoAnimation() {
     var page3Center = document.querySelector(".page3")
     var video = document.querySelector("#video")
 
@@ -162,6 +162,6 @@ page6_video_div.addEventListener("mouseleave" , () => {
 
 // navAnimation();
 page2_earth_animation();
-page3VideoAnimation();
+page3_VideoAnimation();
 page5_animation();
 page6_animation();
