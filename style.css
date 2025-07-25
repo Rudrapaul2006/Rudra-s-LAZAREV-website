@@ -517,6 +517,7 @@ nav button svg {
 
 /* page - 8 */
 .page8 {
+    /* border: 1px solid blue; */
     position: relative;
     height: 318vh;
     width: 100%;
@@ -524,27 +525,25 @@ nav button svg {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* align-items: center; */
 }
 
 .page8 .page8-left-div {
     position: relative;
     /* border: 1px solid red; */
     margin-top: 2vh;
+    margin-left: 22.5vh;
     position: relative;
-    width: 18%;
-    height: 98.8%;
-    margin-left: 10vh;
+    width: max-content;
+    height: 99%;
 }
 
 .page8 .page8-left-div>button {
     position: sticky;
-    top: 14%;
+    top: 12.5%;
     font-size: 15px;
     font-weight: 400;
     background-color: #0BA34E;
     padding: 1vw 4vw;
-    margin-left: 17px;
     border-radius: 50px;
     border: none;
     cursor: pointer;
@@ -660,4 +659,193 @@ summary:hover {
 
 
 /* page - 9 */
+.page9 {
+    background-color: white;
+    min-height: 130vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
+.page9 h1{
+    /* border: 1px solid red; */
+    width: 79%;
+    margin-left: 22.5vh;
+    margin-top: 12vh;
+    display: flex;
+    justify-content: center;
+    color: #111;
+    font-size: 11vh;
+    margin-bottom: 17vh;
+    padding-bottom: 8vh;
+    border-bottom: 2px solid #202020;
+}
+
+.page9 .page9-content {
+    /* border: 1px solid blue; */
+    /* border-bottom: 1px solid #333; */
+    width: 79%;
+    height: 40%;
+    margin-left: 22.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page9 .page9-content .page9-left-div {
+    /* border: 1px solid red ; */
+    width: 20%; 
+}
+
+.page9 .page9-content .page9-left-div>button {
+    padding: 2vh 3vh;
+    background-color:  #0919fb;
+    border-radius: 50px;
+    border: none;
+    position: sticky;
+    top: 12%;
+}
+
+.page9 .page9-content .page9-left-div>button span {
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.page9 .page9-content .page9-left-div>button:hover {
+    cursor: pointer;
+    background-color: #2d3bff;
+}
+
+.page9 .page9-content .page9-right-div {
+    /* border: 1px solid red ; */
+    color: #111;
+    width: 70%;
+}
+
+.page9 .page9-content .page9-right-div p {
+    padding-left: 8vh;
+    width: 95%;
+    font-size: 20px ;
+    font-weight: 500;
+}
+
+/* page - 9 ( bottom ) */
+.page9 .page9-bottom {
+    height: 60vh;
+    width: 79%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 22.5vh;
+    border-top: 1px solid #dadada;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+    gap: 1vh;
+}
+
+.page9 .page9-bottom .page9-h5 {
+    color: #000000;
+    margin-bottom: 4vh;
+    padding-top: 12px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.page9 .page9-bottom .page9-part1 {
+    width: 15%;
+    height: 80%;
+    border-right: 1px solid #dadada;
+}
+
+.page9 .page9-bottom .page9-part2 {
+    display: flex;
+    flex-direction: column;
+    width: 30% ;
+    height: 80%;
+    border-right: 1px solid #dadada;
+}
+
+.page9 .page9-bottom .page9-part3{
+    width: 18%;
+    height: 80%;
+    border-right: 1px solid #dadada;
+}
+
+.page9 .page9-bottom .page9-part4{
+    /* border: 1px solid red */
+    width: 14%;
+    height: 80%;
+    border-right: 1px solid #dadada;
+}
+
+.page9 .page9-bottom #page9-h6 {
+    color : white;
+}
+
+.page9 .page9-bottom #page9-h6 h6 {
+    display: flex;
+    margin-top: 8px ;
+    align-items: center;
+    margin-right: 1vh;
+    font-weight: 500;
+    width: 65%;
+    /* color: white; */
+    background-color: #111;
+    padding: 5px 12px;
+    border-radius: 50px;
+}
+
+.page9 .page9-bottom #page9-h6 span {
+    margin-right: 10px;
+    background-color: #333;
+    padding : 5px 9px;
+    border-radius: 50px;
+}
+
+/* page - 9 ( Part-2 content positioning ) */
+.page9-bottom .page9-part2 h6:nth-child(2) {
+    transform: translateX(5%);
+}
+
+.page9-bottom .page9-part2 h6:nth-child(3) {
+    transform: translateX(12%);
+}
+
+.page9-bottom .page9-part2 h6:nth-child(4) {
+    transform: translateX(19%);
+}
+
+.page9-bottom .page9-part2 h6:nth-child(5) {
+    transform: translateX(26%);
+}
+
+.page9-bottom .page9-part2 h6:nth-child(6) {
+    transform: translateX(33%);
+}
+
+.page9-bottom .page9-part2 h6:nth-child(7) {
+    transform: translateX(40%);
+}
+
+/* page - 9 ( Part-3 content positioning ) */
+.page9-bottom .page9-part3 h6:nth-child(2) {
+    transform: translateX(10%);
+}
+
+.page9-bottom .page9-part3 h6:nth-child(3) {
+    transform: translateX(40%);
+}
+
+/* page - 9 ( Part-3 content positioning ) */
+.page9-bottom .page9-part4 h6:nth-child(2) {
+    transform: translateX(10%);
+}
+
+.page9-bottom .page9-part4 h6:nth-child(3) {
+    transform: translateX(50%);
+}
+
+
+/* page - 10 */
+.page10 {
+    height: 100vh;
+}

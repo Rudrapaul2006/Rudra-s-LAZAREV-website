@@ -160,8 +160,55 @@ page6_video_div.addEventListener("mouseleave" , () => {
 
 }
 
-// navAnimation();
+function page9_animation() {
+
+    gsap.from(".page9-part2 h6" , {
+    x:20,
+    duration:1,
+    scrollTrigger : {
+        trigger : ".page9-part2",
+        scroller : "body",
+        // markars : true,
+        start : "top 90%",
+        end : "top 10%",
+        scrub : true
+
+    }
+})
+
+gsap.from(".page9-part3 h6" , {
+    x:20,
+    duration:1,
+    scrollTrigger : {
+        trigger : ".page9-part3",
+        scroller : "body",
+        // markars : true,
+        start : "top 90%",
+        end : "top 10%",
+        scrub : true
+
+    }
+})
+
+gsap.from(".page9-part4 h6" , {
+    x:20,
+    duration:1,
+    scrollTrigger : {
+        trigger : ".page9-part4",
+        scroller : "body",
+        // markars : true,
+        start : "top 90%",
+        end : "top 10%",
+        scrub : true
+
+    }
+})
+
+}
+
+navAnimation();
 page2_earth_animation();
 page3_VideoAnimation();
 page5_animation();
 page6_animation();
+page9_animation()
