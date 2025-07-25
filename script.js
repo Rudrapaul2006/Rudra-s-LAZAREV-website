@@ -206,7 +206,7 @@ gsap.from(".page9-part4 h6" , {
 
 }
 
-navAnimation();
+// navAnimation();
 page2_earth_animation();
 page3_VideoAnimation();
 page5_animation();
